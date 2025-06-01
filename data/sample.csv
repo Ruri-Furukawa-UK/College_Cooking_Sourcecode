@@ -1,0 +1,3 @@
+id, living_type, cooks_frequency, sees_friends_cooking, talks_about_cooking
+1, alone, 4, 1, 1
+2, with_family, 2, 0, 1
