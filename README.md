@@ -38,3 +38,22 @@ College_Cooking_Sourcecode/
 ├── requirements.txt  
 ├── LICENSE  
 └── README.md
+
+## 実行方法
+
+1. Python環境の準備
+```bash
+pip install -r requirements.txt
+```
+2. 分析スクリプトの実行
+```bash
+# Conduct t-test (example)
+python Source_Code/ttest_on_frequency_of_cooking.py
+```
+
+## 再現性
+
+個人情報を含むデータのため、再現には自身でデータを準備する必要があります。
+
+## ライセンス
+MIT License
