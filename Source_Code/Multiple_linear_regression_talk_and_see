@@ -56,52 +56,59 @@ df['Howlook_home'] = df['周りの人は自炊していますか / Do other peop
 # Investigation of students in dormitories
 df_dorm = df[df['現在の居住状況について / Current living condition'].str.contains('寮')]
 
+# Define explanatory and response variables
 X = df_dorm[['Howtalk_dorm', 'Howlook_dorm']]
 y = df_dorm['Howoften_dorm']
 
-X_train = pd.DataFrame({'How often talk': df_dorm['Howtalk_dorm'], 'How often look': df_dorm['Howlook_dorm']})
-
+# Fit a linear regression model
 model_dorm = LinearRegression()
-model_dorm.fit(X_train, y)
+model_dorm.fit(X, y)
 
+# Compute regression coefficients
 coefficients = np.append(model_dorm.intercept_, model_dorm.coef_)
-
 estimated_intercept = coefficients[0]
 estimated_coefficients = coefficients[1:]
 
+# Show the equation
 equation = f"y = {estimated_intercept:.2f} + {estimated_coefficients[0]:.2f} * x1 + {estimated_coefficients[1]:.2f} * x2"
 print(equation)
 
 # Investigation of students living alone
 df_alone= df[df['現在の居住状況について / Current living condition'].str.contains('一人')]
 
+# Define explanatory and response variables
 X = df_alone[['Howtalk_alone', 'Howlook_alone']]
 y = df_alone['Howoften_alone']
 
+# Fit a linear regression model
 model_alone = LinearRegression()
 model_alone.fit(X, y)
 
+# Compute regression coefficients
 coefficients = np.append(model_alone.intercept_, model_alone.coef_)
-
 estimated_intercept = coefficients[0]
 estimated_coefficients = coefficients[1:]
 
+# Show the equation
 equation = f"y = {estimated_intercept:.2f} + {estimated_coefficients[0]:.2f} * x1 + {estimated_coefficients[1]:.2f} * x2"
 print(equation)
 
 # Investigation of students living with their family
 df_home= df[df['現在の居住状況について / Current living condition'].str.contains('実家')]
 
+# Define explanatory and response variables
 X = df_home1[['Howtalk_home', 'Howlook_home']]
 y = df_home1['Howoften_home']
 
+# Fit a linear regression model
 model_home = LinearRegression()
 model_home.fit(X, y)
 
+# Compute regression coefficients
 coefficients = np.append(model_home.intercept_, model_home.coef_)
-
 estimated_intercept = coefficients[0]
 estimated_coefficients = coefficients[1:]
 
+# Show the equation
 equation = f"y = {estimated_intercept:.2f} + {estimated_coefficients[0]:.2f} * x1 + {estimated_coefficients[1]:.2f} * x2"
 print(equation)
