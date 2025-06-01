@@ -27,15 +27,14 @@ id, 現在の居住状況について / Current living condition, あなたの�
 ...
 ```
 
-## データについて
-College_Cooking_Sourcecode/
-├── data/                          
-│   └── sample_format.csv          
-├── Source_Code/                   
-│   ├── Multiple_linear_regression_talk_and_see.py     # 見き聞したの影響を重回帰分析
-│   ├── Multiple_linear_regression_whycook.py          # 動機付けの影響を重回帰分析
-│   └── ttest_on_frequency_of_cooking.py               # 居住形態によるt検定
-├── requirements.txt              # 依存パッケージ（後述）
-├── LICENSE
+## リポジトリ構成
+College_Cooking_Sourcecode/  
+├── data/  
+│   └── sample_format.csv  
+├── Source_Code/  
+│   ├── Multiple_linear_regression_talk_and_see.py  
+│   ├── Multiple_linear_regression_whycook.py  
+│   └── ttest_on_frequency_of_cooking.py  
+├── requirements.txt  
+├── LICENSE  
 └── README.md
-
