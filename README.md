@@ -16,8 +16,8 @@
 ただし、コードは**ご自身で用意されたテーブルデータで再現可能**です。再現用のサンプルスクリプトと構造は以下に記載します。
 
 ## リポジトリ構成（Repository Structure）
-College_Cooking_Sourcecode/
-├── data/ # データ格納用（データ自体は含まれません）
+College_Cooking_Sourcecode/  
+├── data/ # データ格納用（データ自体は含まれません）  
 │ └── (READMEに取得方法を記述)
 ├── src/ # メインスクリプト
 │ ├── preprocessing.py
