@@ -20,8 +20,8 @@ College_Cooking_Sourcecode/
 ├── data/ # データ格納用（データ自体は含まれません）  
 │ └── (READMEに取得方法を記述)  
 ├── Source_Code/ # メインスクリプト  
-│ ├── preprocessing.py  
-│ ├── lda_model.py  
-│ └── visualize.py  
+│ ├── Multiple_linear_regression_talk_and_see.py  
+│ ├── Multiple_linear_regression_whycook.py  
+│ └── ttest_on_frequency_of_cooking.py  
 ├── LICENSE  
 └── README.md
