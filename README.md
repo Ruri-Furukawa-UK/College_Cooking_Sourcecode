@@ -18,10 +18,10 @@
 ## リポジトリ構成（Repository Structure）
 College_Cooking_Sourcecode/  
 ├── data/ # データ格納用（データ自体は含まれません）  
-│ └── (READMEに取得方法を記述)
-├── src/ # メインスクリプト
-│ ├── preprocessing.py
-│ ├── lda_model.py
-│ └── visualize.py
-├── LICENSE
+│ └── (READMEに取得方法を記述)  
+├── Source_Code/ # メインスクリプト  
+│ ├── preprocessing.py  
+│ ├── lda_model.py  
+│ └── visualize.py  
+├── LICENSE  
 └── README.md
