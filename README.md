@@ -28,7 +28,7 @@ This study examined the influence of reference groups on the cooking habits of u
 
 ## Data - データについて
 
-The data used in this research **contains personal information and cannot be redistributed.**
+The data used in this research **contains personal information and cannot be redistributed.**  
 However, the analysis code is **reproducible with any CSV-formatted tabular data**. Please refer to the following structure:
 
 本研究に使用したデータは、**個人情報を含む収集データであり、再配布はできません**。  
