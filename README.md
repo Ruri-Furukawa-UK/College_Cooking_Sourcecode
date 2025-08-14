@@ -1,10 +1,21 @@
 # College_Cooking_Sourcecode
 
+
 ## Title - 論文タイトル
 **An Influence of Reference Group on the Cooking Habit of University Students**  
 （学生の自炊習慣の違いにおける準拠集団の影響）
 
+
 ## Abstract - 概要
+
+This repository contains the analysis code used in the following research paper:
+
+> Ruri FURUKAWA, Serina SWAN, Hiroyasu YUHASHI (2024).  
+> *An Influence of Reference Group on the Cooking Habit of University Students.*  
+> Presented in the Society of Smart Life Conference in 2024
+
+This study examined the influence of reference groups on the cooking habits of university students living in different environments using multiple regression analysis and t-tests.
+
 
 このリポジトリは、以下の研究論文で使用した分析コードを収録したものです：
 
@@ -14,7 +25,11 @@
 
 本研究では、異なる住環境にある大学生の自炊習慣について、準拠集団の影響を重回帰分析およびt検定により明らかにしました。
 
+
 ## Data - データについて
+
+The data used in this research **contains personal information and cannot be redistributed.**
+However, the analysis code is **reproducible with any CSV-formatted tabular data**. Please refer to the following structure:
 
 本研究に使用したデータは、**個人情報を含む収集データであり、再配布はできません**。  
 ただし、分析コードは**任意のCSV形式の表データで再現可能**です。以下の構造を参考にしてください。
@@ -41,17 +56,19 @@ College_Cooking_Sourcecode/
 
 ## How to Implement - 実行方法
 
-1. Python環境の準備
+1. Python Environment Setup - Python環境の準備
 ```bash
 pip install -r requirements.txt
 ```
-2. 分析スクリプトの実行
+2. Execute Analysis Scripts - 分析スクリプトの実行
 ```bash
 # Conduct t-test (example)
 python Source_Code/ttest_on_frequency_of_cooking.py
 ```
 
-## 再現性
+## Reproducibility - 再現性
+
+Due to the inclusion of personal information in the data, you will need to prepare your own data for reproduction.
 
 個人情報を含むデータのため、再現には自身でデータを準備する必要があります。
 
